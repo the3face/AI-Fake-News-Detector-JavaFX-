@@ -8,6 +8,8 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+import java.util.Arrays;
+
 /**
  * JavaFX App
  */
@@ -33,6 +35,25 @@ public class App extends Application {
 
     public static void main(String[] args) {
         launch();
+
+        // Use the interface type
+        RSSScraperService scraper = new RSSScraper();
+
+        var feeds = Arrays.asList(
+                "https://news.google.com/rss",
+                "https://rss.cnn.com/rss/edition.rss",
+                "https://feeds.bbci.co.uk/news/rss.xml",
+                "https://www.aljazeera.com/xml/rss/all.xml",
+                "https://www.reutersagency.com/feed/?best-topics=world",
+                "https://www.theguardian.com/world/rss"
+        );
+
+        try {
+            scraper.scrapeFeeds(feeds, "multi_rss_output.txt");
+            System.out.println("Scraping complete!");
+        } catch (Exception e) {
+            System.err.println("Error: " + e.getMessage());
+        }
     }
 
 }
