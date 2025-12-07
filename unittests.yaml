@@ -1,0 +1,49 @@
+tests:
+  - headline: "Scientists discover a new mineral that grants immortality to humans"
+    expected_label: "fake"
+    expected_confidence: 92
+
+  - headline: "Coffee proven to let people live forever in shocking new report"
+    expected_label: "fake"
+    expected_confidence: 92
+
+  - headline: "New study claims humans can now breathe underwater without equipment"
+    expected_label: "fake"
+    expected_confidence: 92
+
+  - headline: "Scientists confirm teleportation technology is ready for public use"
+    expected_label: "fake"
+    expected_confidence: 92
+
+  - headline: "New evidence proves birds are actually government drones"
+    expected_label: "fake"
+    expected_confidence: 92
+
+  - headline: "Secret island discovered where dinosaurs still live"
+    expected_label: "fake"
+    expected_confidence: 92
+
+  - headline: "This viral method instantly doubles your income!"
+    expected_label: "fake"
+    expected_confidence: 92
+
+  - headline: "BREAKING: New miracle drink discovered!!!"
+    expected_label: "fake"
+    expected_confidence: 92
+
+  - headline: "Doctors guarantee this breathing technique cures anxiety instantly"
+    expected_label: "fake"
+    expected_confidence: 92
+
+  # TRUSTWORTHY
+  - headline: "Researchers at the University of Oxford publish new findings on sleep patterns"
+    expected_label: "trustworthy"
+    expected_confidence: 88
+
+  - headline: "Study published in a peer-reviewed journal shows moderate exercise improves memory"
+    expected_label: "trustworthy"
+    expected_confidence: 88
+
+  - headline: "Government report outlines improvements in national cybersecurity readiness"
+    expected_label: "trustworthy"
+    expected_confidence: 88
