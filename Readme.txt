@@ -141,8 +141,7 @@ Omar Abusamra
 
 Mohammed Al Khafaji
 
-
-[Add team members here]
+Jhonmer Meneses
 
 License
 
