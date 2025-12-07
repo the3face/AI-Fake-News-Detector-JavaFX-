@@ -137,6 +137,11 @@ TruthSense AI was created as a university software project by:
 
 Ahed Hattar
 
+Omar Abusamra
+
+Mohammed Al Khafaji
+
+
 [Add team members here]
 
 License
